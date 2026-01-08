@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background: White Circle for visibility -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-45,0a45,45 0,1 1 90,0a45,45 0,1 1 -90,0" />
+        
+    <!-- Controller Shape (Simplified Stadia Shape) -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M24,40 C24,30 30,24 40,24 L68,24 C78,24 84,30 84,40 L84,50 C84,65 74,74 64,74 L60,74 L60,80 C60,82 58,84 56,84 L52,84 C50,84 48,82 48,80 L48,74 L44,74 C34,74 24,65 24,50 Z" />
+
+    <!-- D-Pad -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,44 L38,44 L38,40 L42,40 L42,44 L46,44 L46,48 L42,48 L42,52 L38,52 L38,48 L34,48 Z" />
+
+    <!-- ABXY Buttons -->
+    <group>
+        <path android:fillColor="#FFFFFF" android:pathData="M70,42m-2,0a2,2 0,1 1 4,0a2,2 0,1 1 -4,0" />
+        <path android:fillColor="#FFFFFF" android:pathData="M76,46m-2,0a2,2 0,1 1 4,0a2,2 0,1 1 -4,0" />
+        <path android:fillColor="#FFFFFF" android:pathData="M64,46m-2,0a2,2 0,1 1 4,0a2,2 0,1 1 -4,0" />
+        <path android:fillColor="#FFFFFF" android:pathData="M70,50m-2,0a2,2 0,1 1 4,0a2,2 0,1 1 -4,0" />
+    </group>
+    
+    <!-- Checkmark (Green, overlaying) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M48,88 L58,98 L88,68 L82,62 L58,86 L54,82 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M48,88 L58,98 L88,68 L82,62 L58,86 L54,82 Z" />
+
+    <!-- Bluetooth Icon (Blue, stylized nearby) -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M80,20 L80,28 L86,24 Z" />
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M90,20 L86,24 L90,28 L86,32 L90,36" 
+        android:strokeColor="#2196F3" android:strokeWidth="2"/>
+
+</vector>
